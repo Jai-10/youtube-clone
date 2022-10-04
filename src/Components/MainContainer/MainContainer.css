@@ -1,0 +1,14 @@
+.main-content-container {
+    transition: all ease-in-out .2s;
+}
+
+.video-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 5px;
+    transition: all ease-in-out .2s;
+}

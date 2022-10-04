@@ -1,0 +1,15 @@
+.card {
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all ease-in-out .2s;
+}
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}

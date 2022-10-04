@@ -1,0 +1,142 @@
+.sidebar {
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 73px;
+    left: 0;
+    height: 89.4%;
+    background-color: rgb(250, 250, 250);
+    transition: all ease-in-out .2s;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+.sidebar-items-container {
+    padding-top: 10px;
+}
+
+.sidebar i {
+    font-size: 20px;
+}
+
+
+.sidebar ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    transition: all ease-in-out .2s;
+}
+
+.sidebar ul li {
+    width: 100%;
+    margin: 0 8px;
+    padding: 7px 30px 7px 30px;
+    list-style-type: none;
+    font-size: 1rem;
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+}
+.sidebar ul li:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+.sidebar ul li span {
+    margin-left: 20px;
+}
+
+
+
+
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+.sidebar:hover::-webkit-scrollbar {
+    display: inline-block;
+    width: 7px;
+}
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/* sign in option */
+.sign-in-menu {
+    font-size: 15px;
+    margin-left: 1.3rem;
+    padding-left: 0.4rem;
+    transition: all ease-in-out .2s;
+}
+.sign-in-menu span {
+    letter-spacing: -0.2px;
+}
+.sign-in-menu button {
+    margin-top: 10px;
+    margin-left: 0.5rem;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 2px;
+    transition: all ease-in-out .2s;
+    color: #4185de;
+    background-color: rgb(250, 250, 250);
+    border: 0.05rem solid #4185de;
+    cursor: pointer;
+}
+.sign-in-menu i {
+    margin-right: 0.5rem;
+    font-size: 14px;
+}
+
+
+
+
+.sidebar ul p {
+    margin-left: -5.3rem;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+}
+
+
+
+
+.browse {
+    text-align: center;
+    padding: 3px;
+    margin-left: -35px;
+}
+.browse i {
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+
+
+
+.sidebar-footer {
+    font-size: 14px;
+    line-height: 0.3;
+    margin-top: -10px;
+    padding: 10px;
+    color: rgb(83, 83, 83);
+    font-weight: 500;
+}
+.sidebar-footer p {
+    margin: 13px 8px;
+}
+.sidebar-footer p span {
+    margin: 0 4px;
+    cursor: pointer;
+}
