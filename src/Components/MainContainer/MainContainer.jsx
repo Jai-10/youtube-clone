@@ -58,12 +58,6 @@ const MainContainer = (props) => {
         <Video openSidebar={props.openSidebar} />
         <Video openSidebar={props.openSidebar} />
         <Video openSidebar={props.openSidebar} />
-        <Video openSidebar={props.openSidebar} />
-        <Video openSidebar={props.openSidebar} />
-        <Video openSidebar={props.openSidebar} />
-        <Video openSidebar={props.openSidebar} />
-        <Video openSidebar={props.openSidebar} />
-        <Video openSidebar={props.openSidebar} />
       </div>
 
 
