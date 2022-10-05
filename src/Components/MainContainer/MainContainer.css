@@ -1,14 +1,15 @@
 .main-content-container {
+    background-color: rgb(249, 249, 249);
     transition: all ease-in-out .2s;
 }
 
 .video-container {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 10px;
-    padding: 5px;
+    padding: 15px;
     transition: all ease-in-out .2s;
 }

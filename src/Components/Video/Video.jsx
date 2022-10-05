@@ -5,7 +5,7 @@ const Video = (props) => {
   return (
     <div className="card"
         style={{
-            width: `${props.openSidebar===false ? "20.5rem" : "24rem"}`
+            width: `${props.openSidebar===false ? "19.7rem" : "24rem"}`
         }}
     >
         <img src="https://i.ytimg.com/vi/TZ7aoZG11Cc/maxresdefault.jpg" className="card-img-top" alt="video-thumbnail" />

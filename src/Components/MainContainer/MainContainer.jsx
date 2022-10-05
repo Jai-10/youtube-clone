@@ -7,7 +7,7 @@ const MainContainer = (props) => {
   return (
     <div className='main-content-container'
       style={{
-        marginLeft: `${props.openSidebar===false ? "80px" : "260px" }`
+        marginLeft: `${props.openSidebar===false ? "80px" : "250px" }`
       }}
     >
       

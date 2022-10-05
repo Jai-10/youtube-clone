@@ -1,7 +1,7 @@
 .card {
     margin: 10px;
     cursor: pointer;
-    border-radius: 8px;
+    border: none;
     transition: all ease-in-out .2s;
 }
 .card:hover {
